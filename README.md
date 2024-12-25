@@ -1,5 +1,5 @@
-# levi-startpage
-a simple weeb startpage with HTML, Javascript and CSS, inspired by someone's startpage posted in a comment on reddit. 
+# weebox-startpage
+> **_weebox,** _n_. a simple weeb startpage with HTML, Javascript and CSS, inspired by someone's startpage posted in a comment on reddit. 
 
 original inspiration: https://voxie12.github.io/moon/
 
