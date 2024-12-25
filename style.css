@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+
+html,body {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 28px;
+    background: url('space.jpg');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+img {
+    height: 230px;
+    width: 630px;
+    object-fit: cover;
+    border: 2px solid #ffffff;
+    /* border-bottom: none; */
+    margin-bottom: -3px;
+
+}
+
+nav {
+    color: #ffffff;
+    background-color: #13131e00;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 0px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-top: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+
+}
+
+h1 {
+    font-size: 2em;
+    grid-column: 1 / -1;
+    margin: 30;
+    text-align: center;
+    color: #ffffff;
+  }
+
+/* div.user {
+    background-color: #262434;
+    color: white;
+    margin-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding: 3px;
+    border: 1px solid white;
+}
+
+div.taskbar {
+    color: #a9b1d6;
+    background-color: #262434;
+    border: 1px solid #a9b1d6;
+    padding: 3px;   
+} */
+
+.clock-box {
+    position: relative;
+    color: #ffffff;
+    background-color: #18182500;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+input {
+    background-color: #13131e00;
+    font: 16px 'Share Tech Mono', monospace;
+    color: #89a3d3;
+    height: 100%;
+    width: 100%;
+    border: 2px solid #ffffff;
+    border-top: none;
+    text-align: center;
+    margin-top: 0px;
+    outline: none;
+    padding: 5px;
+  }
+
+input::placeholder {
+    color: #ffffff;
+}

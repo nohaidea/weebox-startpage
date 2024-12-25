@@ -1,0 +1,83 @@
+<head>
+        <title>開始ページ</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>心臓を捧げよ!</h1>
+        <!--<div class="clock-box">
+        <div id="clockbox">19:04:20</div>
+
+        <script type="text/javascript">
+        function GetClock(){
+        var d=new Date();
+        var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+        if(nmin<=9) nmin="0"+nmin;
+        if(nsec<=9) nsec="0"+nsec;
+        
+        var clocktext=""+nhour+":"+nmin+":"+nsec+"";
+        document.getElementById('clockbox').innerHTML=clocktext;
+        }
+        
+        GetClock();
+        setInterval(GetClock,1000);
+        </script>
+        
+
+        <div id="datebox">tuesday, december 24, 2024</div>-->
+
+<script type="text/javascript">
+var tday=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+var tmonth=["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+function GetClock(){
+var d=new Date();
+var nday=d.getDay(),nmonth=d.getMonth(),ndate=d.getDate(),nyear=d.getFullYear();
+
+var clocktext=""+tday[nday]+", "+tmonth[nmonth]+" "+ndate+", "+nyear+"";
+document.getElementById('datebox').innerHTML=clocktext;
+}
+
+GetClock();
+setInterval(GetClock,1000);
+</script>
+
+
+
+      </div>
+     
+      <img src="levi.jpg" alt="image of moon">
+
+
+        <nav>
+          
+            <ul>
+              <li><a href="https://github.com/">github</a></li>
+              <li><a href="https://cs50.harvard.edu/x/2024/weeks/">cs50x</a></li>
+              <li><a href="https://mail.google.com/">email</a></li>
+              <li><a href="https://r-roms.github.io/">roms</a></li>
+            </ul>
+        
+            <ul>
+                <li><a href="https://www.reddit.com/r/unixporn/">r/unixporn</a></li>
+                <li><a href="https://www.reddit.com/r/startpages/">r/startpages</a></li>
+                <li><a href="https://www.reddit.com/r/archlinux/">r/archlinux</a></li>
+            </ul>
+
+            <ul>
+              <li><a href="https://www.reddit.com/r/Piracy/wiki/megathread/">megathread</a></li>
+              <li><a href="https://www.youtube.com/">youtube</a></li>
+              <li><a href="https://www.miruro.tv/watch?id=21804&ep=8/">miruro</a></li>
+              <li><a href="https://anilist.co/home/">anilist</a></li>
+            </ul>
+
+
+            
+
+          </nav>
+          <form action="https://duckduckgo.com/" method="GET" target="_blank">
+            <input autofocus="" name="q" type="search" placeholder="search..." tabindex="1">
+          </form>
+    
+
+
+</body>
