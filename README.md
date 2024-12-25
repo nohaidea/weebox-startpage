@@ -5,7 +5,7 @@ original inspiration: https://voxie12.github.io/moon/
 
 for firefox based browsers, you can follow this guide on reddit to make your own custom new tab: 
 
-[how to set a custom new tab page in firefox]([https://youtu.be/8bh238ekw3](https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set_a_custom_new_tab_page_in_firefox/ "@embed")
+[how to set a custom new tab page in firefox]((https://www.reddit.com/r/startpages/comments/g3qndt/psa_how_to_set_a_custom_new_tab_page_in_firefox/ "@embed")
 
  
 
